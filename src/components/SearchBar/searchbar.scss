@@ -17,8 +17,10 @@
       &:first-child {
         border-top-left-radius: 5px;
         border-right: none;
+        @include sm {
+          // border-bottom: 1px solid #999;
+        }
       }
-
       &:last-child {
         border-top-right-radius: 5px;
         border-left: none;
@@ -34,6 +36,7 @@
     gap: 5px;
     @include sm {
       flex-direction: column;
+      border: none;
     }
     input {
       border: none;
@@ -46,6 +49,22 @@
           width: 140px;
         }
       }
+      @include md {
+        width: 200px;
+        &:nth-child(2),
+        &:nth-child(3) {
+          width: 200px;
+        }
+      }
+      @include sm {
+        width: auto;
+        &:nth-child(2),
+        &:nth-child(3) {
+          width: auto;
+        }
+        padding: 20px;
+        border: 1px solid #999;
+      }
     }
 
     button {
@@ -53,7 +72,9 @@
       cursor: pointer;
       background-color: #fece51;
       flex: 1;
-
+      @include sm {
+        padding: 10px;
+      }
       img {
         height: 20px;
         width: 20px;
