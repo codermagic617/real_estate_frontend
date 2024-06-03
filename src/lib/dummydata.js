@@ -1,0 +1,222 @@
+export const listData = [
+    {
+        "id": 1,
+        "title": "A Great Apartment Next to the Beach!",
+        "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 10000,
+        "address": "Park Avenue, London",
+        "latitude": 25.0833429,
+        "longitude": 55.1192998
+    },
+    {
+        "id": 2,
+        "title": "Modern Apartment in City Center",
+        "img": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 15000,
+        "address": "Main Street, New York",
+        "latitude": 40.712776,
+        "longitude": -74.005974
+    },
+    {
+        "id": 3,
+        "title": "Cozy Studio with Garden View",
+        "img": "https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 1,
+        "bathRoom": 1,
+        "price": 8000,
+        "address": "Elm Street, San Francisco",
+        "latitude": 37.774929,
+        "longitude": -122.419418
+    },
+    {
+        "id": 4,
+        "title": "Luxurious Condo with Pool",
+        "img": "https://images.pexels.com/photos/7601166/pexels-photo-7601166.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 4,
+        "bathRoom": 3,
+        "price": 25000,
+        "address": "Sunset Boulevard, Los Angeles",
+        "latitude": 34.052235,
+        "longitude": -118.243683
+    },
+    {
+        "id": 5,
+        "title": "Beachfront Villa with Private Beach",
+        "img": "https://images.pexels.com/photos/12608564/pexels-photo-12608564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 5,
+        "bathRoom": 4,
+        "price": 30000,
+        "address": "Ocean Drive, Miami",
+        "latitude": 25.761681,
+        "longitude": -80.191788
+    },
+    {
+        "id": 6,
+        "title": "Charming Apartment in Historic Building",
+        "img": "https://images.pexels.com/photos/8595878/pexels-photo-8595878.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 12000,
+        "address": "Baker Street, London",
+        "latitude": 51.523764,
+        "longitude": -0.158555
+    },
+    {
+        "id": 7,
+        "title": "Penthouse with City Skyline Views",
+        "img": "https://images.pexels.com/photos/9137769/pexels-photo-9137769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 3,
+        "bathRoom": 3,
+        "price": 28000,
+        "address": "Fifth Avenue, New York",
+        "latitude": 40.775036,
+        "longitude": -73.965383
+    },
+    {
+        "id": 8,
+        "title": "Spacious Loft in Trendy Neighborhood",
+        "img": "https://images.pexels.com/photos/7891133/pexels-photo-7891133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 2,
+        "bathRoom": 2,
+        "price": 17000,
+        "address": "Market Street, San Francisco",
+        "latitude": 37.794601,
+        "longitude": -122.399971
+    },
+    {
+        "id": 9,
+        "title": "Elegant Townhouse with Garage",
+        "img": "https://images.pexels.com/photos/6874072/pexels-photo-6874072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 20000,
+        "address": "Rodeo Drive, Los Angeles",
+        "latitude": 34.067447,
+        "longitude": -118.401404
+    },
+    {
+        "id": 10,
+        "title": "Luxury Apartment with River View",
+        "img": "https://images.pexels.com/photos/2343465/pexels-photo-2343465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 18000,
+        "address": "Queen Street, Brisbane",
+        "latitude": -27.469770,
+        "longitude": 153.025123
+    },
+    {
+        "id": 11,
+        "title": "Modern Duplex in Business District",
+        "img": "https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 16000,
+        "address": "George Street, Sydney",
+        "latitude": -33.868820,
+        "longitude": 151.209290
+    },
+    {
+        "id": 12,
+        "title": "Stylish Apartment Near Central Park",
+        "img": "https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 1,
+        "bathRoom": 1,
+        "price": 14000,
+        "address": "Central Park West, New York",
+        "latitude": 40.785091,
+        "longitude": -73.968285
+    },
+    {
+        "id": 13,
+        "title": "High-Rise Apartment with Gym Access",
+        "img": "https://images.pexels.com/photos/1212053/pexels-photo-1212053.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 22000,
+        "address": "Collins Street, Melbourne",
+        "latitude": -37.813629,
+        "longitude": 144.963058
+    },
+    {
+        "id": 14,
+        "title": "Penthouse Suite with Rooftop Terrace",
+        "img": "https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 4,
+        "bathRoom": 3,
+        "price": 35000,
+        "address": "Orchard Road, Singapore",
+        "latitude": 1.304834,
+        "longitude": 103.831808
+    },
+    {
+        "id": 15,
+        "title": "Designer Apartment with Modern Amenities",
+        "img": "https://images.pexels.com/photos/7031723/pexels-photo-7031723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bedRoom": 2,
+        "bathRoom": 2,
+        "price": 19000,
+        "address": "Kensington High Street, London",
+        "latitude": 51.499757,
+        "longitude": -0.192583
+    },
+    {
+        "id": 16,
+        "title": "Chic Loft with Exposed Brick Walls",
+        "img": "https://images.pexels.com/photos/5997993/pexels-photo-5997993.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 16000,
+        "address": "King Street, Toronto",
+        "latitude": 43.653225,
+        "longitude": -79.383186
+    },
+    {
+        "id": 17,
+        "title": "Apartment in Quiet Suburban Area",
+        "img": "https://images.pexels.com/photos/3221215/pexels-photo-3221215.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 11000,
+        "address": "Bay Street, San Francisco",
+        "latitude": 37.804363,
+        "longitude": -122.271111
+    },
+    {
+        "id": 18,
+        "title": "Contemporary Apartment with Open Floor Plan",
+        "img": "https://images.pexels.com/photos/7031619/pexels-photo-7031619.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 3,
+        "bathRoom": 2,
+        "price": 20000,
+        "address": "Broadway, New York",
+        "latitude": 40.759011,
+        "longitude": -73.984472
+    },
+    {
+        "id": 19,
+        "title": "Quaint Apartment in a Quiet Neighborhood",
+        "img": "https://images.pexels.com/photos/6492397/pexels-photo-6492397.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 9000,
+        "address": "Grove Street, Seattle",
+        "latitude": 47.606209,
+        "longitude": -122.332069
+    },
+    {
+        "id": 20,
+        "title": "Sunny Apartment with Large Windows",
+        "img": "https://images.pexels.com/photos/6969870/pexels-photo-6969870.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "bedRoom": 2,
+        "bathRoom": 1,
+        "price": 12000,
+        "address": "Maple Avenue, Boston",
+        "latitude": 42.360083,
+        "longitude": -71.058880
+    }
+]

@@ -2,6 +2,7 @@ import { useState } from "react";
 import HomePage from "./routes/hompage/homepage";
 import ListPage from "./routes/ListPage/listPage";
 import Layout from "./routes/Layout/layout";
+import SinglePage from "./routes/SinglePage/SinglePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
         {
           path: "/list",
           element: <ListPage />,
+        },
+        {
+          path: "/:id",
+          element: <SinglePage />,
         },
       ],
     },

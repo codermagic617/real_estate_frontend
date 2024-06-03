@@ -1,5 +1,5 @@
 import React from "react";
-import "./singepage.scss";
+import "./singlepage.scss";
 
 const SinglePage = () => {
   return <div>SinglePage</div>;
