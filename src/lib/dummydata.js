@@ -7,8 +7,8 @@ export const listData = [
         "bathRoom": 1,
         "price": 10000,
         "address": "Park Avenue, London",
-        "latitude": 25.0833429,
-        "longitude": 55.1192998
+        "latitude": 25.0762805,
+        "longitude": 54.8978417,
     },
     {
         "id": 2,
@@ -18,8 +18,8 @@ export const listData = [
         "bathRoom": 2,
         "price": 15000,
         "address": "Main Street, New York",
-        "latitude": 40.712776,
-        "longitude": -74.005974
+        "latitude": 24.8933593,
+        "longitude": 54.963097,
     },
     {
         "id": 3,
@@ -220,3 +220,29 @@ export const listData = [
         "longitude": -71.058880
     }
 ]
+export const singlePostData = {
+    id: 1,
+    title: "A Great Apartment Next to the Beach!",
+    price: 10000,
+    images: [
+        "https://new-projects-media.propertyfinder.com/project/2a63ce2d-9dab-4687-9b1b-74bc3cdc948b/gallery/image/AGIX6q2N1UZOhEPav2VBfvFPXSoE9LAp7Qz2PxHRdkE=/original.webp",
+        "https://new-projects-media.propertyfinder.com/project/2a63ce2d-9dab-4687-9b1b-74bc3cdc948b/gallery/image/JVwDb5euIwAW5kI0sDbtO1sGwKcz1GktGNb5XK4sVIs=/original.webp",
+        "https://new-projects-media.propertyfinder.com/project/2a63ce2d-9dab-4687-9b1b-74bc3cdc948b/gallery/image/vda76IrgxMKmKQZTlC613p3Ur3EM2MQbRip3Z358FDk=/original.webp",
+        "https://new-projects-media.propertyfinder.com/project/b7fad90e-532b-4c61-8c43-faaa76154c7c/gallery/image/x3HKgchTkHbhhkZQDy3SlAcNMUJpX0bTNpqaQ9eWhV4=/original.webp"
+    ],
+    bathRoom: 1,
+    bedRoom: 2,
+    latitude: 25.0762805,
+    longitude: 54.8978417,
+    city: "London",
+    address: "Park Avenue, London",
+    school: "5KM away",
+    bus: "200M away",
+    restaurant: "100M away",
+    description: "Future alike hill pull picture swim magic seed enginnering marvel Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque necessitatibus saepe mollitia ad, quidem modi cumque dolore enim doloribus officia facere praesentium culpa nostrum placeat ipsa, repellendus in. Ratione!",
+}
+export const userData = {
+    id: 1,
+    name: 'Jane Doe',
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOGwfUocgt06bolZVFKcwKotR052n6afrPkg&s"
+}
