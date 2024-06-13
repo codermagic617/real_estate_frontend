@@ -57,7 +57,8 @@ const SinglePage = () => {
               </div>
             </div>
           </div>
-          <p className="title">
+          <p className="title">Sizes </p>
+          <div className="sizes">
             <div className="size">
               <img src="/size.png" alt="" />
               <span>80 sqft.</span>
@@ -70,11 +71,31 @@ const SinglePage = () => {
               <img src="/bathtub.png" alt="" />
               <span>1 Bathroom</span>
             </div>
-          </p>
-          <p className="title">Sizes</p>
-          <div className="sizes"> </div>
-          <p className="title">Nearby Places</p>
-          <div className="listHorizontal"></div>
+          </div>
+          <p className="title">Nearby places</p>
+          <div className="listHorizontal">
+            <div className="feature">
+              <img src="/school.png" alt="" />
+              <div className="featureText">
+                <span>School</span>
+                <p>500m Away</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/bus-stop.png" alt="" />
+              <div className="featureText">
+                <span>Bus Stop</span>
+                <p>100m Away</p>
+              </div>
+            </div>
+            <div className="feature">
+              <img src="/restaurant.png" alt="" />
+              <div className="featureText">
+                <span>Restaurant</span>
+                <p>200m Away</p>
+              </div>
+            </div>
+          </div>
           <p className="title">Location</p>
           <div className="mapContainer">
             <Map items={[singlePostData]} />
