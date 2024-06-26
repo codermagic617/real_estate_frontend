@@ -1,4 +1,3 @@
-import React from "react";
 import "./singlepage.scss";
 import { singlePostData, userData } from "../../lib/dummydata";
 import Slider from '../../components/Slider/Slider';
@@ -97,7 +96,7 @@ const SinglePage = () => {
             </div>
           </div>
           <p className="title">Location</p>
-          <div className="mapContainer">
+          <div className="mapcontainer">
             <Map items={[singlePostData]} />
           </div>
           <div className="buttons">

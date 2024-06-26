@@ -1,5 +1,4 @@
 import { listData } from '../../lib/dummydata';
-import React from "react";
 import Filter from "../../components/Filter/Filter";
 import Map from '../../components/Map/Map';
 import Card from "../../components/Card/Card";
